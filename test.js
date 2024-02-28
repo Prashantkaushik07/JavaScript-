@@ -303,10 +303,181 @@
 //   console.log(Array.from(student[i].toUpperCase()));
 // }
 
-var a = 40;
-var b = 20;
-if(a > b){
-  alert("A is greater than B");
-}else{
-alert( b is a greater );
+// var a = 40;
+// var b = 20;
+// if(a > b){
+//   alert("A is greater than B");
+// }else{
+// alert( b is a greater );
+// }
+
+
+
+// function printButtonLineByLine(buttonText) {
+  
+//   var lines = buttonText.split('\n');
+
+  
+//   for (var i = 0; i < lines.length; i++) {
+//       console.log(lines[i]);
+//   }
+// }
+
+
+// ar buttonText = "Click\nMe";
+// printButtonLineByLine(buttonText);v
+
+
+
+// const priceOne = 10;
+// const priceTwo = 15;
+// const priceThree = 10;
+ 
+// console.log(priceOne >= priceTwo);
+// console.log(priceOne >= priceThree);
+ 
+// console.log(priceOne <= priceTwo);
+// console.log(priceOne <= priceThree);
+// let 
+
+
+//const pi = 22/7;
+//console.log(Number(pi.toFixed(2)));
+
+// console.log("operater in js");
+
+// //let a=10;
+// //let b=20;
+
+// console.log("a+b= ",a+b);
+// console.log("a-b= ",a-b);
+// console.log("a*b= ",a*b);
+// console.log("a/b= ",a/b);
+// console.log("a**b= ",a**b);
+// console.log("a%b= ",a%b);
+// console.log("a++ = ",a++);
+// console.log("a-- = ",a--);
+
+
+//logical Operater
+
+// let a=5;
+// let b=10;
+
+// console.log(a<b && a==b);
+// console.log(a<b || a==b);
+// console.log(a<b )
+
+
+
+// const start = 1;
+// const end = 200; 
+
+// for (let i = start; i <= end; i++) {
+    
+//     if (i % 2 !== 0) {
+//         console.log(i); 
+//     }
+// }
+
+// let a = prompt("Hey whats you age?");
+// a = Number.parseInt(a); 
+// if(a<0){
+//   alert("This is an invalid age");
+// }
+// else if(a<9){
+//   alert("You are a kid and you cannot even think of driving");
+// }
+// else if(a<18 && a>=9){
+//   alert("You are a kid and you can think of driving after 18");
+// }
+// else{
+//   alert("You can now drive as you are above 18");
+// }
+// console.log("Done")
+// console.log("You can", (a<18? "not drive" :"drive"))
+
+
+
+
+// for (let i =0; i <= 10; i++) {
+    
+//     if (i % 2 == 0) {
+//         console.log(i); 
+//     }
+// }
+
+
+// Javascript program to print
+// table of a number
+
+// let n = 15;
+// for (let i = 0; i <= 150; i++)
+// 	if (i  % 15 ==0  ){
+//     console.log(i);
+//   }
+// let arr=["Prashant kaushik"]
+// for (let i = 0; arr<=10; i++) {
+//   console.log("My  is Prashant kaushik")
+//   )
+
+
+  // let student=[1,2,3,4,5,6,7]
+  
+  // for (let key of student) {
+  //   console.log(student)
+    
+  // }
+
+// for(let i =0; i<11; i++)
+// document.write("prashant"+"<br>");
+  
+// // Define the name variable
+// var name = "John";
+
+// // Use a for loop to iterate over each character in the name
+// for (var i = 0; i <10; i++) {
+//     // Print each character of the name
+//     console.log([i]+name);
+// }
+
+// for(i=0;i<=10;i++) {
+//   console.log("My name is Prashant kaushik");
+// }
+
+
+// let sum=0;
+// n
+// for (i = 0; i < 9; i++ ) {
+//   console.log("")
+// }
+
+
+// let student={
+//   "Rohan":true,
+//   "kapil":false,
+//   "vishvesh":45,
+//   "yogesh":undefined,
+// }
+// console.log(student["kapil"]);
+
+// let str="Hello World";
+// let num=456;
+// let bol=true;
+// let arr=["apple"];
+// let sym=Symbol("Prashant");
+// let und=undefined;
+// let nu=null;
+// console.log(nu);
+
+// let a = "Prashant Kaushik"
+// let b = 5
+// console.log(a + b );
+// console.log(typeof (a+b));
+
+
+const person={
+  name:"Prashant",
+  rollno:132,
 }
+person=132
