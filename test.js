@@ -476,8 +476,227 @@
 // console.log(typeof (a+b));
 
 
-const person={
-  name:"Prashant",
-  rollno:132,
+// const person={
+//   name:"Prashant",
+//   rollno:132,
+// }
+// person["rollno=156"];
+// console.log(person.name);
+
+// let Dictionary={
+//   "adumbrate":"prefigure",
+//   "denouement":"as of a drama",
+//   "esculent":"suitable for use as food",
+//   "garrulous":"talkative",
+//   "nebulous":"cloudy or misty",
+
+// }
+// console.log(Dictionary.garrulous);
+
+// const number = parseInt(prompt("Enter a positive number: "));
+// let isPrime = true;
+
+
+// if (number === 1) {
+//     console.log("1 is neither prime nor composite number.");
+// }
+
+
+// else if (number > 1) {
+
+    
+//     for (let i = 2; i < number; i++) {
+//         if (number % i == 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+
+//     if (isPrime) {
+//         console.log(`${number} is a prime number`);
+//     } else {
+//         console.log(`${number} is a not prime number`);
+//     }
+// }
+
+
+// else {
+//     console.log("The number is not a prime number.");
+// }
+
+
+// let a=10;
+// let b=5;
+
+// console.log("a + b = ",a+b);
+// console.log("a = ",a);
+// console.log("b = ",b);
+// console.log("a - b = ",a-b);
+// console.log("a * b = ",a*b);
+// console.log("a / b = ",a/b);
+// console.log("a % b = ",a%b);
+// console.log("a ** b = ",a**b);
+// console.log("a++ = ",a++);
+// console.log("++a = ",++a);
+// console.log("a = ", a);
+// console.log("a-- = ",a--);
+// console.log("a = ", a );
+// console.log("--a = ",--a);
+// console.log("a = ", a );
+
+
+
+
+
+// let assignment=5;
+// assignment += 3;
+// console.log(assignment)
+// assignment -= 2;
+// console.log(assignment)
+// assignment *= 4;
+// console.log(assignment)
+// assignment /= 6;
+// console.log(assignment)
+// assignment %= 9;
+// console.log(assignment)
+// assignment **= 6;
+// console.log(assignment)
+
+
+// let nu=null;
+// let num=456;
+// let sym=Symbol("Prashant");
+// let str="Hello World";
+// let bol=true;
+// let bigint=900;
+// let arr=["apple"];
+// let und=undefined;
+
+// console.log(nu);
+// console.log(num);
+// console.log(sym);
+// console.log(str);
+// console.log(bol);
+// console.log(bigint);
+// console.log(arr);
+// console.log(und);
+
+// let marks=25;
+// let marks1=35;
+
+// console.log("marks == marks1 is ", marks == marks1);
+// console.log("marks != marks1 is ", marks != marks1);
+// console.log("marks < marks1 is ", marks < marks1);
+// console.log("marks > marks1 is ", marks > marks1);
+// console.log("marks <= marks1 is ", marks <= marks1);
+// console.log("marks >= marks1 is ", marks >= marks1);
+// console.log("marks === marks1 is ", marks === marks1);
+
+
+// let x=5;
+// let y=10;
+
+// console.log(x<y && x==5);
+// console.log(x<y && x==5);
+// console.log(x<y || x==5);
+// console.log(x<y && x==5);
+
+// let age=prompt("What is your age");
+// switch (age){
+//     case "18":
+//     console.log("Your age is 18");
+//     break
+//     case "19":
+//     console.log("Your age is 19");
+//     break
+//     case "20":
+//     console.log("Your age is 20");
+//     break
+//     case "21":
+//     console.log("Your age is 21");
+//     break
+//     case "22":
+//     console.log("Your age is 22");
+//     break
+//     case "23":
+//     console.log("Your age is 23");
+//     break
+//     case "24":
+//     console.log("Your age is 24");
+//     break
+//     case "25":
+//     console.log("Your age is 25");
+//     break
+//     case "26":
+//     console.log("Your age is 26");
+//     break
+//     case "27":
+//     console.log("Your age is 27");
+// }
+
+  //  let a=100;
+  //  let b;
+    
+  //  b = "Value is " + ( a>10? "Greater than ": "less than");
+
+   //  console.log(b);
+
+
+//    let a=100;
+//    let b;
+
+// if ( b > a){
+//     alert("b is greater than ",a)
+ 
+// }
+// let a ="Prashant";
+
+// for ( let i = 0; i < a.length; i++){
+//   console.log(a[i]);
+// }
+
+
+// let name = "Prashant Kaushik";
+// for (let i = 0; i < name.length; i++) {
+//   console.log(name[i]);
+// }
+
+// let name = "Prashant Kaushik";
+// let words = name.split();
+// for (let i = 0; i < words.length; i++) {
+//   console.log(words[i]);
+// }
+
+// let a=prompt("What is your name");
+
+
+let Days=prompt("Today is what day");
+switch (Days){
+    case "1":
+    console.log("Today is Monday");
+    break
+    case '2':
+    console.log("Today is Tuesday");
+    break
+    case '3':
+    console.log("Today is Wednesday");
+    break
+    case '4':
+    console.log("Today is Thursday");
+    break
+    case '5':
+    console.log("Today is Friday");
+    break
+    case '6':
+    console.log("Today is Saturday");
+    break
+    case '7':
+    console.log("Today is Sunday");
+    // break
+    // case '25':
+    // console.log("your age is 19");
+    // break
+    // case '26':
+    // console.log("your age is 19");
+
 }
-person=132
